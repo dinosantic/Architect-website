@@ -1,0 +1,110 @@
+.section {
+  grid-column: 2;
+  grid-row: 1;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;  
+  position: relative;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box; }
+.slider__container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  list-style: none;
+  white-space: nowrap;
+  }   
+.slider__item {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: inline-block; }
+
+.slider__content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  visibility: hidden; 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows:  auto ;
+}
+.title-h1{
+  grid-column: 1/5;
+  grid-row: 1/2;  
+  z-index: 10;
+  text-align: center;
+}
+.title-h1:hover{
+  background: rgba(196, 183, 183, 0.1);
+}
+.slider-image{
+grid-column: 1/-1;
+grid-row: 1/3;  
+}
+.slider-image img{
+  margin-right: 0;
+}
+.slider-controls {
+  display: none; }
+.bubbles{
+  grid-column: 1;
+  grid-row: 1;  
+  justify-self: center;
+  align-self: flex-end;
+  position: absolute;
+} 
+.slider-navigation {
+  bottom: 32px;
+  text-align: center; }
+  .slider-navigation > li {
+    position: relative;
+    display: inline-block;
+    margin-right: 12px; }
+    .slider-navigation > li > a {
+      display: inline-block;
+      width: 15px;
+      height: 15px;
+      border: 3px solid #FFF;
+      border: 3px solid rgb(0, 0, 0);
+      border-radius: 50%;
+      background: transparent;
+      transition: all 0.4s ease; }
+      .slider-navigation > li > a.is-active {
+        background: rgba(2, 2, 2, 0.5);
+        border-color: rgba(0, 0, 0, 0); 
+      }
+.none{
+  display: none;
+}
+.slide-burger {
+  background: #d2e1ed; 
+}
+.slide-astronaut {
+  background: #ffd1bb;
+}
+.slide-coffee {
+  background: #e8f0ca;
+ }
+.title {
+  text-transform: none;
+} 
+.title1 {
+  color: #bdd1e2; 
+} 
+.title2 {
+  color: #ffd1bb;
+} 
+.title3 {
+  color: #d3ddae;
+}
+/* @media only screen and (min-width: 768px) {
+  .title {
+    font-size: 3em; } } */

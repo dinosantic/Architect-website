@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Architect website</title>
+
+  <!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+
+  <div class="slider-wrapper">
+    <div class="slider">
+      <div class="slides-container">
+        <div class="slide-wrapper">
+          <div class="slide" data-order="1">
+            <img src="img/portrait.png" alt="" />
+            <div class="slide-content">
+              <div class="h1"><h1>I am architect</h1></div>
+              <div class="slide-txt">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A ad sed, cumque, molestias accusamus rerum maiores reprehenderit rem fugit odio est voluptas esse natus optio officiis hic.</p>
+                <!-- <button>Show regions</button> -->
+              </div>
+            </div>
+          </div>
+
+
+           <!-- ********** PORTOFOLIO ******* -->
+
+          <div class="section slide" id="slider" data-order="2"><!--Portofolio slider-->
+         
+            <!-- <div class="slider2"> -->
+              
+              <div class="slider__container">
+        
+                <div class="slider__item slide-burger">
+                  <div class="slider__content">
+                    <div class="title-h1">
+                      <h1 class="title title1">My work 1</h1>
+                      <p class="title paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eaque mollitia, <br> illum corrupti voluptate nam reiciendis nisi sapiente laborum, consectetur libero a <br> cum natus voluptas enim aliquid harum accusamus dolores.</p>
+                    </div>
+                    <div class="slider-image"> 
+                      <img src="img/img11.png", class="image burger" alt="">
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="slider__item slide-astronaut">
+                  <div class="slider__content">
+                    <div class="title-h1">
+                      <h1 class="title title2">My work 2</h1>
+                      <p class="title"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eaque mollitia, <br> illum corrupti voluptate nam reiciendis nisi sapiente laborum, consectetur libero a <br> cum natus voluptas enim aliquid harum accusamus dolores.</p>
+                    </div>
+                    <div class="slider-image">
+                      <img src="img/img12.png", class="image astronaut" alt="">
+                    </div>
+                  </div>
+                </div>
+           
+                <div class="slider__item slide-coffee">
+                  <div class="slider__content">
+                    <div class="title-h1">
+                      <h1 class="title title3">My work 3</h1>
+                      <p class="title"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eaque mollitia, <br> illum corrupti voluptate nam reiciendis nisi sapiente laborum, consectetur libero a <br> cum natus voluptas enim aliquid harum accusamus dolores.</p>
+                    </div>
+                    <div class="slider-image">
+                      <img src="img/img13.png", class="image cup" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <!-- </div> -->
+
+            <!--bubbles-->
+            <div class="bubbles">
+
+                <ul class="slider-navigation" style="pointer-events: auto;">
+                <li><a data-index="0" href="#0" class="is-active"></a></li>
+                <li><a data-index="1" href="#1" class=""></a></li>
+                <li><a data-index="2" href="#2" class=""></a></li>
+                </ul>
+            </div> 
+
+            <!-- </div> -->
+            <!--bubbles end-->
+          </div><!--Portofolio slider end-->
+
+
+          <!--Contact slide-->
+          <div class="slide contact-slide" data-order="3">
+            <img class="portrait2" src="img/portrait3.png" alt="" />
+            <div class="mail"><a href="#"><i class="fa fa-envelope"></i><span>E-mail</span> </a></div>
+            <div class="instagram"><a href="#"><i class="fa fa-instagram"></i><span>Instagram</span></a></div>
+            <div class="facebook"><a href="#"><i class="fa fa-facebook-square"></i><span>Facebook</span></a></div>
+            <div class="twitter"><a href="#"> <i class="fa fa-twitter"></i> <span>Twitter</span></a></div>
+
+            <div class="border1"></div>
+            <div class="border2"></div>
+            <div class="border3"></div>
+            <div class="border4"></div>
+            <div class="border5"></div>
+
+            <div class="slide-content2">
+              <h2>Archi Tect</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum totam aliquid culpa libero saepe excepturi quae quibusdam maxime amet quo optio eius ullam sed, exercitationem ex repellat at perspiciatis doloribus?</p>
+              <div class="border6"></div>
+              <div class="slide-txt">
+                <!-- <p>June, July and August is the best time to travel, this is when you can expect the warmest weather, longest daylight hours and best availability of outdoor activities.</p>
+                 <button>Reservations</button> -->
+              </div>
+            </div>
+          </div><!--Contact slide end-->
+
+        </div><!--slide-wrapper end-->
+      </div><!--slides-container end-->
+
+      <div class="slide-navigation__txt">
+        <ul>
+          <li><span class="about" data-order="1">About</span></li>
+          <li><span class="portofolio" data-order="2">Portofolio</span></li>
+          <li><span class="contact" data-order="3">Contact</span></li>
+        </ul>
+      </div><!--navigation slide end-->
+
+    </div><!--slider end-->
+  </div><!--slider wrapper end-->
+
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js" ></script>
+  <script src="js/tweenslide.js"></script>
+  <!-- <script src="js/main.js"></script> -->
+  <script src="js/main2.js"></script>
+  <script src="js/slider.js"></script>
+</body>
+</html>
